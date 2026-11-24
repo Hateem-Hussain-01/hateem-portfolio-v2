@@ -53,8 +53,9 @@ export default function Hero() {
           {heroChips.map((chip, i) => (
             <div
               key={chip.label}
+              style={{ animationDelay: `${i * 0.9}s` }}
               className={[
-                "absolute rounded-2xl border border-white/10 bg-[#0a1122]/85 px-4 py-3 shadow-[0_8px_30px_rgba(0,0,0,0.5)] backdrop-blur-md",
+                "animate-float-soft absolute rounded-2xl border border-white/10 bg-[#0a1122]/85 px-4 py-3 shadow-[0_8px_30px_rgba(0,0,0,0.5)] backdrop-blur-md",
                 i === 0 && "top-[2%] left-[-2%]",
                 i === 1 && "top-[10%] right-[-4%]",
                 i === 2 && "bottom-[14%] left-[-6%]",

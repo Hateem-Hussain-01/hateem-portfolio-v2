@@ -43,6 +43,39 @@ body {
   animation: fade-in 0.5s ease;
 }
 
+/* Gentle float for the hero stat chips — a very small bob around their axis */
+@keyframes float-soft {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.animate-float-soft {
+  animation: float-soft 5s ease-in-out infinite;
+}
+
+/* Testimonial marquee — slow, continuous right-to-left drift */
+@keyframes marquee-rtl {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee-rtl 90s linear infinite;
+}
+
+.marquee-hover:hover .animate-marquee {
+  animation-play-state: paused;
+}
+
 /* Thin blue scrollbar to match the theme */
 ::-webkit-scrollbar {
   width: 10px;
