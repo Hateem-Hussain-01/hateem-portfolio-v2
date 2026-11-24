@@ -237,6 +237,16 @@ export function Testimonials() {
       <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {bottom.map(card)}
       </div>
+      <div className="mt-10 text-center">
+        <a
+          href="https://www.linkedin.com/in/hateemhussain/details/recommendations/"
+          target="_blank"
+          rel="noreferrer"
+          className="text-sm font-semibold text-[#2e7fff] hover:underline"
+        >
+          View all recommendations on LinkedIn ↗
+        </a>
+      </div>
     </section>
   );
 }

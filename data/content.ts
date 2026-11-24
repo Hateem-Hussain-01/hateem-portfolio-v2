@@ -162,64 +162,66 @@ export const experience = [
   },
 ];
 
-// DUMMY TESTIMONIALS — placeholder content only. Eman will replace these
-// with real client/student quotes. Do not treat these as real endorsements.
+// REAL LinkedIn recommendations (received Aug 2025 - Dec 2025). Quotes are
+// short VERBATIM excerpts of the recommenders' own words — full texts are in
+// ~/workspace/your_files/linkedin-recommendations-hateem.md and on LinkedIn:
+// https://www.linkedin.com/in/hateemhussain/details/recommendations/
 export const testimonials = [
   {
     featured: false,
-    initials: "SA",
-    name: "Sarah Ahmed",
+    initials: "HI",
+    name: "Muhammad Haider Ijaz",
     quote:
-      "Hateem explains complex ideas in a way that just clicks. The Python course changed how I think about code.",
-    role: "Python Student",
+      "His sessions were well-structured, interactive, and engaging, which greatly enhanced the overall learning experience for everyone in the batch.",
+    role: "Software Engineer",
   },
   {
     featured: true,
-    initials: "UA",
-    name: "Usman Ali",
+    initials: "RH",
+    name: "Rida Habib",
     quote:
-      "Delivered on time, clean code, and great communication throughout the project. Exactly what we needed.",
-    role: "Startup Founder",
+      "He demonstrates strong technical expertise and delivers concepts in a clear, structured, and practical manner, making complex topics easy to understand.",
+    role: "IT Student, University of Agriculture",
   },
   {
     featured: false,
-    initials: "AK",
-    name: "Ayesha Khan",
+    initials: "AI",
+    name: "Areeba Imran",
     quote:
-      "The ML model he built for us works exactly as promised — measured, tested, and documented.",
-    role: "Data Analyst",
+      "He is not only an excellent instructor but also a true mentor who motivates me and students at every step. His teaching style is very clear, practical, and inspiring.",
+    role: "IT Student, UAF",
   },
   {
     featured: false,
-    initials: "DR",
-    name: "Danish Raza",
+    initials: "HA",
+    name: "Hafsah Aleen",
     quote:
-      "One of the most dedicated trainers I've worked with. Our cohort finished with real projects, not just certificates.",
-    role: "CodeBettle Student",
+      "Sir Hateem's teaching style is both clear and engaging, making complex topics easy to understand. He is patient, supportive, and always willing to go the extra mile to ensure his students succeed.",
+    role: "Student, University of Agriculture",
   },
   {
     featured: false,
-    initials: "HM",
-    name: "Hira Malik",
+    initials: "ZB",
+    name: "Syed Zeeshan Ali Bukhari",
     quote:
-      "He doesn't just write code — he builds systems that hold up in production.",
-    role: "Product Manager",
+      "His teaching style is clear, engaging, and very practical, which made even complex concepts easy to understand. What I appreciated the most was the way Sir Hateem always encouraged problem-solving and logical thinking.",
+    role: "CS Student, CodeBettle Ambassador",
   },
   {
     featured: false,
-    initials: "OF",
-    name: "Omar Farooq",
+    initials: "RA",
+    name: "Rubab Shaukat Ali",
     quote:
-      "Clear thinking, honest estimates, and a habit of shipping. I'd work with him again.",
-    role: "Freelance Client",
+      "He created such a peaceful and motivating environment that made even difficult topics easy to understand. His support and calm teaching style gave me the confidence to practice and grow as a programmer.",
+    role: "Frontend Developer",
   },
   {
     featured: false,
-    initials: "ZT",
-    name: "Zainab Tariq",
+    initials: "FS",
+    name: "Muhammad Faizan Saif",
     quote:
-      "From the first call to deployment, everything was structured and transparent.",
-    role: "Business Owner",
+      "I appreciated the interactive nature of the session, which encouraged participation and questions. Overall, Sir Hateem demonstrated exceptional teaching skills, making the Python course a valuable learning experience.",
+    role: "Cybersecurity Engineer",
   },
 ];
 
