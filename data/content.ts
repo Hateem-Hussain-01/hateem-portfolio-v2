@@ -162,6 +162,67 @@ export const experience = [
   },
 ];
 
+// DUMMY TESTIMONIALS — placeholder content only. Eman will replace these
+// with real client/student quotes. Do not treat these as real endorsements.
+export const testimonials = [
+  {
+    featured: false,
+    initials: "SA",
+    name: "Sarah Ahmed",
+    quote:
+      "Hateem explains complex ideas in a way that just clicks. The Python course changed how I think about code.",
+    role: "Python Student",
+  },
+  {
+    featured: true,
+    initials: "UA",
+    name: "Usman Ali",
+    quote:
+      "Delivered on time, clean code, and great communication throughout the project. Exactly what we needed.",
+    role: "Startup Founder",
+  },
+  {
+    featured: false,
+    initials: "AK",
+    name: "Ayesha Khan",
+    quote:
+      "The ML model he built for us works exactly as promised — measured, tested, and documented.",
+    role: "Data Analyst",
+  },
+  {
+    featured: false,
+    initials: "DR",
+    name: "Danish Raza",
+    quote:
+      "One of the most dedicated trainers I've worked with. Our cohort finished with real projects, not just certificates.",
+    role: "CodeBettle Student",
+  },
+  {
+    featured: false,
+    initials: "HM",
+    name: "Hira Malik",
+    quote:
+      "He doesn't just write code — he builds systems that hold up in production.",
+    role: "Product Manager",
+  },
+  {
+    featured: false,
+    initials: "OF",
+    name: "Omar Farooq",
+    quote:
+      "Clear thinking, honest estimates, and a habit of shipping. I'd work with him again.",
+    role: "Freelance Client",
+  },
+  {
+    featured: false,
+    initials: "ZT",
+    name: "Zainab Tariq",
+    quote:
+      "From the first call to deployment, everything was structured and transparent.",
+    role: "Business Owner",
+  },
+];
+
 export const faqs = [
   {
     answer:

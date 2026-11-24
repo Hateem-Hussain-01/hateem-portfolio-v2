@@ -9,6 +9,7 @@ content (projects, experience, tech stack, stats) in place of the template's.
 - Run locally: `npm install` then `npm run dev`.
 - Deploy: import this repo in Vercel (Framework: Next.js) — no env vars needed.
 
-Note: the design's Testimonials section is intentionally not included — there
-are no verified real testimonials on record, and no fake ones are used. Send
-real client/student quotes and the section will be added in the same style.
+Note: the Testimonials section currently holds DUMMY placeholder quotes
+(Eman asked for dummies on 24 Nov 2026, real ones to follow). They are marked
+as dummy in `data/content.ts` — replace them with real client/student quotes
+before sharing the site publicly.

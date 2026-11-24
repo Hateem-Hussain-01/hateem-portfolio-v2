@@ -5,6 +5,7 @@ import {
   Projects,
   Services,
   StatsStrip,
+  Testimonials,
   TrustedBy,
 } from "@/components/Sections";
 import About from "@/components/About";
@@ -21,6 +22,7 @@ export default function Home() {
       <StatsStrip />
       <Process />
       <About />
+      <Testimonials />
       <Faq />
       <CtaBanner />
       <Footer />

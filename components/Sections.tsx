@@ -5,6 +5,7 @@ import {
   projects,
   services,
   stats,
+  testimonials,
   trustedBy,
 } from "@/data/content";
 
@@ -159,6 +160,82 @@ export function Services() {
             </p>
           </article>
         ))}
+      </div>
+    </section>
+  );
+}
+
+export function Testimonials() {
+  const top = testimonials.slice(0, 3);
+  const bottom = testimonials.slice(3);
+
+  const card = (t: (typeof testimonials)[number]) => (
+    <article
+      key={t.name}
+      className={
+        t.featured
+          ? "rounded-[20px] border border-[#3b82f6] bg-gradient-to-b from-[#2563eb] to-[#1d4ed8] p-6 shadow-[0_0_40px_rgba(37,99,235,0.35)]"
+          : "rounded-[20px] border border-[rgba(96,140,255,0.14)] bg-[#0a1122] p-6"
+      }
+    >
+      <span
+        className={
+          t.featured
+            ? "text-3xl leading-none font-extrabold text-white/60"
+            : "text-3xl leading-none font-extrabold text-[#2e7fff]/50"
+        }
+      >
+        &ldquo;
+      </span>
+      <p
+        className={
+          t.featured
+            ? "mt-2 text-sm leading-relaxed text-white"
+            : "mt-2 text-sm leading-relaxed text-[#c3cede]"
+        }
+      >
+        {t.quote}
+      </p>
+      <div className="mt-5 flex items-center gap-3">
+        <span
+          className={
+            t.featured
+              ? "flex h-10 w-10 items-center justify-center rounded-full bg-white/20 text-xs font-bold text-white"
+              : "flex h-10 w-10 items-center justify-center rounded-full bg-[#2563eb]/20 text-xs font-bold text-[#7fb0ff]"
+          }
+        >
+          {t.initials}
+        </span>
+        <div>
+          <p className="text-sm font-bold text-white">{t.name}</p>
+          <p
+            className={
+              t.featured ? "text-xs text-blue-100" : "text-xs text-[#8b98ad]"
+            }
+          >
+            {t.role}
+          </p>
+        </div>
+      </div>
+    </article>
+  );
+
+  return (
+    <section id="testimonials" className="mx-auto max-w-6xl scroll-mt-28 px-6 py-20">
+      <div className="mx-auto max-w-2xl text-center">
+        <h2 className="text-3xl font-bold text-white md:text-4xl">
+          Testimonials
+        </h2>
+        <p className="mt-3 text-sm leading-relaxed text-[#8b98ad] md:text-base">
+          Feedback from valued collaborators, reflecting my commitment to
+          quality and reliability.
+        </p>
+      </div>
+      <div className="mt-12 grid gap-6 md:grid-cols-3">
+        {top.map(card)}
+      </div>
+      <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        {bottom.map(card)}
       </div>
     </section>
   );
