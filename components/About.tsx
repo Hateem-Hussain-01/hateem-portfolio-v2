@@ -64,7 +64,7 @@ export default function About() {
               src="/img/hateem-portrait.jpg"
               alt="Muhammad Hateem Hussain"
               fill
-              className="object-cover object-top"
+              className="object-cover object-[50%_25%]"
             />
           </div>
           <div className="p-6 text-center">
