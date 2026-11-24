@@ -5,9 +5,9 @@ import {
   Projects,
   Services,
   StatsStrip,
-  Testimonials,
   TrustedBy,
 } from "@/components/Sections";
+import Testimonials from "@/components/Testimonials";
 import About from "@/components/About";
 import { CtaBanner, Faq, Footer } from "@/components/Closing";
 

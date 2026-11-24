@@ -162,21 +162,17 @@ export const experience = [
   },
 ];
 
-// REAL LinkedIn recommendations (received Aug 2025 - Dec 2025). Quotes are
-// short VERBATIM excerpts of the recommenders' own words — full texts are in
-// ~/workspace/your_files/linkedin-recommendations-hateem.md and on LinkedIn:
+// REAL LinkedIn recommendations (received Dec 2025 - Jul 2025), most recent
+// first. Quotes are short VERBATIM excerpts of the recommenders' own words —
+// full texts are in ~/workspace/your_files/linkedin-recommendations-hateem.md
+// and on LinkedIn:
 // https://www.linkedin.com/in/hateemhussain/details/recommendations/
+// NOTE: Noor Ul Ain Amir (12 Jan 2025) is not here — her text was not visible
+// in the screenshots; add it when it is available. Muhammad Dawood Nawaz Ch
+// is not here either — his text is word-for-word identical to Faizan Saif's,
+// so the quote appears once.
 export const testimonials = [
   {
-    featured: false,
-    initials: "HI",
-    name: "Muhammad Haider Ijaz",
-    quote:
-      "His sessions were well-structured, interactive, and engaging, which greatly enhanced the overall learning experience for everyone in the batch.",
-    role: "Software Engineer",
-  },
-  {
-    featured: true,
     initials: "RH",
     name: "Rida Habib",
     quote:
@@ -184,15 +180,6 @@ export const testimonials = [
     role: "IT Student, University of Agriculture",
   },
   {
-    featured: false,
-    initials: "AI",
-    name: "Areeba Imran",
-    quote:
-      "He is not only an excellent instructor but also a true mentor who motivates me and students at every step. His teaching style is very clear, practical, and inspiring.",
-    role: "IT Student, UAF",
-  },
-  {
-    featured: false,
     initials: "HA",
     name: "Hafsah Aleen",
     quote:
@@ -200,7 +187,48 @@ export const testimonials = [
     role: "Student, University of Agriculture",
   },
   {
-    featured: false,
+    initials: "UA",
+    name: "ume ammara",
+    quote:
+      "A huge thanks to Sir Hateem Hussain for being an exceptional instructor and mentor. His clear, practical, and inspiring teaching style made learning Python both easy and enjoyable.",
+    role: "Software Engineering Student, UAF",
+  },
+  {
+    initials: "FR",
+    name: "Filza Rauf",
+    quote:
+      "He is highly experienced and explains even complex concepts in a way that makes them simple and clear for students.",
+    role: "Aspiring AI Engineer",
+  },
+  {
+    initials: "SZ",
+    name: "Sumaiya Zulfiqar",
+    quote:
+      "He explains programming concepts in a simple and clear way, and he always replies to our questions and messages whenever we need help.",
+    role: "Software Engineering Student, UAF",
+  },
+  {
+    initials: "MA",
+    name: "Muhammad Ahsan",
+    quote:
+      "I feel truly grateful to have learned from Sir Hateem Hussain. His teaching style is clear, practical, and motivating, making even complex topics easy to grasp.",
+    role: "Software Engineering Student",
+  },
+  {
+    initials: "FS",
+    name: "Muhammad Faizan Saif",
+    quote:
+      "I appreciated the interactive nature of the session, which encouraged participation and questions. Overall, Sir Hateem demonstrated exceptional teaching skills, making the Python course a valuable learning experience.",
+    role: "Cybersecurity Engineer",
+  },
+  {
+    initials: "SF",
+    name: "Sehrish Fatima",
+    quote:
+      "Sir Hateem Hussain is a very nice and kind tutor. He is not strict but teaches us so many useful things.",
+    role: "Software Engineer",
+  },
+  {
     initials: "ZB",
     name: "Syed Zeeshan Ali Bukhari",
     quote:
@@ -208,7 +236,48 @@ export const testimonials = [
     role: "CS Student, CodeBettle Ambassador",
   },
   {
-    featured: false,
+    initials: "WT",
+    name: "Wajiha Talha",
+    quote:
+      "Sir Hateem taught us every single detail of this course in an amazing way. The course was well-structured which made it easier to understand.",
+    role: "CFO & Co-Founder, ONYX TECH",
+  },
+  {
+    initials: "NS",
+    name: "Nimra Saeed",
+    quote:
+      "Sir created a learning environment where questions were always welcomed and challenges were turned into learning opportunities.",
+    role: "Student, University of Agriculture",
+  },
+  {
+    initials: "MS",
+    name: "Muhammad Saood",
+    quote:
+      "I am study the python for sir he teaches me python very good he is a good teacher",
+    role: "Python Developer",
+  },
+  {
+    initials: "AT",
+    name: "Ariba Tahir",
+    quote:
+      "I was a student of Sir Muhammad Hateem Hussain during the Python course at Codebettle. He is an outstanding teacher.",
+    role: "AI Student",
+  },
+  {
+    initials: "HB",
+    name: "Muhammad Haris Bashir",
+    quote:
+      "Taught me Python and made learning simple and effective.",
+    role: "Mechanical Engineering, NUST'28",
+  },
+  {
+    initials: "AI",
+    name: "Areeba Imran",
+    quote:
+      "He is not only an excellent instructor but also a true mentor who motivates me and students at every step. His teaching style is very clear, practical, and inspiring.",
+    role: "IT Student, UAF",
+  },
+  {
     initials: "RA",
     name: "Rubab Shaukat Ali",
     quote:
@@ -216,12 +285,11 @@ export const testimonials = [
     role: "Frontend Developer",
   },
   {
-    featured: false,
-    initials: "FS",
-    name: "Muhammad Faizan Saif",
+    initials: "HI",
+    name: "Muhammad Haider Ijaz",
     quote:
-      "I appreciated the interactive nature of the session, which encouraged participation and questions. Overall, Sir Hateem demonstrated exceptional teaching skills, making the Python course a valuable learning experience.",
-    role: "Cybersecurity Engineer",
+      "His sessions were well-structured, interactive, and engaging, which greatly enhanced the overall learning experience for everyone in the batch.",
+    role: "Software Engineer",
   },
 ];
 
