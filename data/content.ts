@@ -2,7 +2,7 @@ export const profile = {
   email: "mhateemjutt1412@gmail.com",
   github: "https://github.com/Hateem-Hussain-01",
   leetcode: "https://leetcode.com/u/hateem2875/",
-  linkedin: "https://www.linkedin.com/in/hateemhussain",
+  linkedin: "https://www.linkedin.com/in/hateemhussain01",
   medium: "https://medium.com/@Hateem-Hussain-01",
   name: "Muhammad Hateem Hussain",
   phone: "+92 321 7855411",
@@ -166,11 +166,11 @@ export const experience = [
 // first. Quotes are short VERBATIM excerpts of the recommenders' own words —
 // full texts are in ~/workspace/your_files/linkedin-recommendations-hateem.md
 // and on LinkedIn:
-// https://www.linkedin.com/in/hateemhussain/details/recommendations/
-// NOTE: Noor Ul Ain Amir (12 Jan 2025) is not here — her text was not visible
-// in the screenshots; add it when it is available. Muhammad Dawood Nawaz Ch
-// is not here either — his text is word-for-word identical to Faizan Saif's,
-// so the quote appears once.
+// https://www.linkedin.com/in/hateemhussain01/details/recommendations/
+// (profile slug is hateemhussain01 — plain /in/hateemhussain 404s, verified
+// 24 Nov 2026 via signed-in browser read.)
+// NOTE: Muhammad Dawood Nawaz Ch is not here — his text is word-for-word
+// identical to Faizan Saif's, so the quote appears once.
 export const testimonials = [
   {
     initials: "RH",
@@ -290,6 +290,13 @@ export const testimonials = [
     quote:
       "His sessions were well-structured, interactive, and engaging, which greatly enhanced the overall learning experience for everyone in the batch.",
     role: "Software Engineer",
+  },
+  {
+    initials: "NA",
+    name: "Noor Ul Ain Amir",
+    quote:
+      "Their teaching style made even the most challenging topics feel manageable and engaging. Through their guidance, I’ve not only learned the fundamentals of Python but also gained the confidence to tackle real-world problems.",
+    role: "Moderator, iCodeGuru",
   },
 ];
 

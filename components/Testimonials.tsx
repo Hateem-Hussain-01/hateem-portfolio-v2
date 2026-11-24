@@ -115,7 +115,7 @@ export default function Testimonials() {
 
       <div className="mt-8 text-center">
         <a
-          href="https://www.linkedin.com/in/hateemhussain/details/recommendations/"
+          href="https://www.linkedin.com/in/hateemhussain01/details/recommendations/"
           target="_blank"
           rel="noreferrer"
           className="text-sm font-semibold text-[#2e7fff] hover:underline"
